@@ -1,0 +1,26 @@
+.navigation ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #37a794;
+    padding:0;
+}
+
+.navigation ul li{
+    list-style: none !important;
+    padding: 20px;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navigation ul li:hover{
+    background: #115d51;
+}
+
+.navigation ul li a{
+    text-decoration: none !important;
+    color: #fff !important;
+}

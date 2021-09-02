@@ -9,6 +9,7 @@ import PageNotFound from './pages/page-not-found/PageNotFound';
 import SingleProduct from './pages/single-product/SingleProduct';
 import Store from './pages/store/Store';
 
+import "./App.css"
 
 const AppRouting = () => {
   return (

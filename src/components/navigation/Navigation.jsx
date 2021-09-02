@@ -1,39 +1,48 @@
 
 import { Link } from 'wouter'
 
+import "./Navigation.css"
+
 const Navigation = () => {
     return (
-        <nav className="">
+        <nav className="navigation">
             <ul>
-                <li>
-                    <Link to="/">
-                        <a>Inicio</a>
-                    </Link>
-                </li>
+                <Link to="/">
+                    <li>
+                        <a>Categorías</a>
+                    </li>
+                </Link>
 
-                <li>
-                    <Link to="/tienda">
-                        <a>Tienda</a>
-                    </Link>
-                </li>
 
-                <li>
-                    <Link to="/nosotros">
-                        <a>Nosotros</a>
-                    </Link>
-                </li>
+                <Link to="/">
+                    <li>
+                            <a>Inicio</a>
+                    </li>
+                </Link>
 
-                <li>
-                    <Link to="/contactanos">
-                        <a>Contactanos</a>
-                    </Link>
-                </li>
+                <Link to="/tienda">
+                    <li>
+                            <a>Tienda</a>
+                    </li>
+                </Link>
 
-                <li>
-                    <Link to="/producto">
-                        <a>Producto</a>
-                    </Link>
-                </li>
+                <Link to="/nosotros">
+                    <li>
+                            <a>Nosotros</a>
+                    </li>
+                </Link>
+
+                <Link to="/contactanos">
+                    <li>
+                            <a>Contactanos</a>
+                    </li>
+                </Link>
+
+                <Link to="/producto">
+                    <li>
+                            <a>Producto</a>
+                    </li>
+                </Link>
 
 
             </ul>

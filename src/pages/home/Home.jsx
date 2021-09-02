@@ -3,7 +3,7 @@
 
 const Home = () => {
     return (
-        <div className="page">
+        <div className="container page">
             
 
             <h1>All fine, all rigth!</h1>
