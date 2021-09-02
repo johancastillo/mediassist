@@ -7,16 +7,20 @@ const Navigation = () => {
     return (
         <nav className="navigation">
             <ul>
-                <Link to="/">
-                    <li>
-                        Categorías
-                    </li>
-                </Link>
+                
 
 
                 <Link to="/">
                     <li>
                             Inicio
+                    </li>
+                </Link>
+
+                
+
+                <Link to="/nosotros">
+                    <li>
+                           Nosotros
                     </li>
                 </Link>
 
@@ -26,9 +30,9 @@ const Navigation = () => {
                     </li>
                 </Link>
 
-                <Link to="/nosotros">
+                <Link to="/">
                     <li>
-                           Nosotros
+                        Categorías
                     </li>
                 </Link>
 
@@ -36,12 +40,6 @@ const Navigation = () => {
                         <li>
                                 Contactanos
                         </li>
-                </Link>
-
-                <Link to="/producto">
-                    <li>
-                            Producto
-                    </li>
                 </Link>
 
 

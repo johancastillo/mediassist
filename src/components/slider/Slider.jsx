@@ -1,24 +1,30 @@
 
-
+import "./Slider.css"
 
 const Slider = () => {
     return (
         <div id="carouselExampleIndicators" className="carousel slide my-4" data-bs-ride="carousel">
+  
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={1} aria-label="Slide 2" />
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={2} aria-label="Slide 3" />
   </div>
+
   <div className="carousel-inner">
-    <div className="carousel-item active">
+
+    <div className="carousel-item active slide">
       <img src="./assets/images/slider/01.jpg" className="d-block w-100" alt="..." />
     </div>
-    <div className="carousel-item">
+
+    <div className="carousel-item slide">
       <img src="./assets/images/slider/01.jpg" className="d-block w-100" alt="..." />
     </div>
-    <div className="carousel-item">
+
+    <div className="carousel-item slide">
       <img src="./assets/images/slider/01.jpg" className="d-block w-100" alt="..." />
     </div>
+
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true" />

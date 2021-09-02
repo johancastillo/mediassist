@@ -14,13 +14,10 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    text-decoration: none !important;
+    color: #fff !important;
 }
 
 .navigation ul li:hover{
     background: #115d51;
-}
-
-.navigation ul li a{
-    text-decoration: none !important;
-    color: #fff !important;
 }
