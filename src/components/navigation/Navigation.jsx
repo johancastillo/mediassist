@@ -9,38 +9,38 @@ const Navigation = () => {
             <ul>
                 <Link to="/">
                     <li>
-                        <a>Categorías</a>
+                        Categorías
                     </li>
                 </Link>
 
 
                 <Link to="/">
                     <li>
-                            <a>Inicio</a>
+                            Inicio
                     </li>
                 </Link>
 
                 <Link to="/tienda">
                     <li>
-                            <a>Tienda</a>
+                           Tienda
                     </li>
                 </Link>
 
                 <Link to="/nosotros">
                     <li>
-                            <a>Nosotros</a>
+                           Nosotros
                     </li>
                 </Link>
 
                 <Link to="/contactanos">
-                    <li>
-                            <a>Contactanos</a>
-                    </li>
+                        <li>
+                                Contactanos
+                        </li>
                 </Link>
 
                 <Link to="/producto">
                     <li>
-                            <a>Producto</a>
+                            Producto
                     </li>
                 </Link>
 
