@@ -1,8 +1,10 @@
+
+
 .navigation ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #37a794;
+    background: #943c90;
     padding:0;
 }
 
@@ -19,5 +21,5 @@
 }
 
 .navigation ul li:hover{
-    background: #115d51;
+    background: #70206c;
 }

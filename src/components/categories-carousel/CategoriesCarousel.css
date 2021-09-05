@@ -1,3 +1,20 @@
 .categories-carousel{
-    width: 100%;
+    overflow-y: hidden; 
+    overflow-x: auto;
+
+
+    width: auto;
+    height: 50px;
+    padding: 10px;
+    white-space: nowrap;
+
+
+}
+
+.categories-carousel div{
+    width: 100px;
+    height: 50px;
+    margin: 0 10px 0 0;
+    padding: 0;
+    display: inline-block;
 }

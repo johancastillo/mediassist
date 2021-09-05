@@ -1,13 +1,32 @@
 
+import { useEffect, useState } from 'react'
+import "./NavInfo.css"
 
 
 const NavInfo = () => {
+
+    const [navState, setNavState] = useState(false)
+
+
+    useEffect(() => {
+        window.addEventListener("scroll", () =>{
+            if(window.scrollY > 288){
+                setNavState(true)
+            }else{
+                setNavState(false)
+    
+            }
+    
+        })
+
+    }, [])
+
     return(
-        <div className="container nav-info my-4">
+        <div className={navState ? "container nav-info active my-4" : "container nav-info my-4"}>
             <div className="row">
                 
                 <div className="col-md-3">
-                    <img className="logo" src="./assets/images/logo.png" alt="" />
+                    <img className="logo" width="100%" src="./assets/images/logo.png" alt="" />
                 </div>
                 
                 <div className="col-md-3">

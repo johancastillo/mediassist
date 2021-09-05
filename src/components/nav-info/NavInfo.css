@@ -1,5 +1,20 @@
 
+.nav-info{
+    animation: all 1s;
+}
 
+.nav-info.active{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 99;
+    margin: 0 !important;
+    max-width: initial;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px black;
+}
 
 
 

@@ -3,6 +3,8 @@ import { Link } from 'wouter'
 
 import "./Navigation.css"
 
+
+
 const Navigation = () => {
     return (
         <nav className="navigation">
