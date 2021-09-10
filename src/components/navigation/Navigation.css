@@ -4,14 +4,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #943c90;
+    background: #22b0e6;
     padding:0;
+    position: relative;
 }
 
 .navigation ul li{
     list-style: none !important;
     padding: 20px;
-    width: 16%;
+    width: 22%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,6 +21,26 @@
     color: #fff !important;
 }
 
+.menu-down:hover .dropdown-menu{
+    display: flex;
+}
+
+.menu-down .dropdown-menu:hover{
+    display: flex;
+}
+
 .navigation ul li:hover{
-    background: #70206c;
+    background: #0986b5;
+}
+
+ul.dropdown-menu {
+    bottom: -130px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+ul.dropdown-menu li{
+    width: 100%;
 }

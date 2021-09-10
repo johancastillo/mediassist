@@ -26,17 +26,20 @@ const Navigation = () => {
                     </li>
                 </Link>
 
-                <Link to="/tienda">
-                    <li>
-                           Tienda
-                    </li>
-                </Link>
 
-                <Link to="/">
-                    <li>
-                        Categorías
+                    <li className="menu-down">
+                        Áreas de negocio
+
+                        <ul className="dropdown-menu">
+                            <Link to="/">
+                                <li>Diabetes</li>
+                            </Link>
+
+                            <Link to="/">
+                                <li>Productos medicos descartables</li>
+                            </Link>
+                        </ul>
                     </li>
-                </Link>
 
                 <Link to="/contactanos">
                         <li>

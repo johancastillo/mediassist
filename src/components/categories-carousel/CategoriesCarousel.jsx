@@ -1,32 +1,89 @@
 
 import "./CategoriesCarousel.css"
 
+
+
+
+const leftMove = () => {
+    let categoriesCarousel = document.getElementById("categories-carousel")
+    categoriesCarousel.scrollBy(-200, 0)
+
+    //console.log("Left")
+
+}
+
+
+const rightMove = () => {
+    let categoriesCarousel = document.getElementById("categories-carousel")
+    categoriesCarousel.scrollBy(200, 0)
+    
+    //console.log("Right")
+
+}
+
 const CategoriesCarousel = () => {
     return (
-        <div class="categories-carousel">
-            <div>Contenedor 1</div>
+        <div>
+            <div className="controls my-2">
+                <button className="btn mx-2" onClick={leftMove}>
+                    <img src="./assets/images/icons/caret-left.svg" alt="" />
+                </button>
 
-            <div>Contenedor 2</div>
-            <div>Contenedor 3</div>
-            <div>Contenedor 4</div>
-            <div>Contenedor 5</div>
-            <div>Contenedor 6</div>
-            <div>Contenedor 7</div>
-            <div>Contenedor 8</div>
-            <div>Contenedor 9</div>
-            <div>Contenedor 10</div>
-            <div>Contenedor 11</div>
-            <div>Contenedor 12</div>
-            <div>Contenedor 13</div>
-            <div>Contenedor 14</div>
-            <div>Contenedor 15</div>
-            <div>Contenedor 16</div>
-            <div>Contenedor 17</div>
-            <div>Contenedor 18</div>
-            <div>Contenedor 19</div>
-            <div>Contenedor 20</div>
+                <button className="btn" onClick={rightMove}>
+                    <img src="./assets/images/icons/caret-right.svg" alt="" />
+                </button>
+            </div>
+
+            <div class="categories-carousel" id="categories-carousel">
+            <div className="item">
+                <img src="./assets/images/categories/catlegory-1.png" width="100%" alt="" />
+            </div>
+
+            <div className="item">
+                <img src="./assets/images/categories/catlegory-2.png" width="100%" alt="" />
+            </div>
+
+            <div className="item">
+                <div className="box">
+                <img src="./assets/images/categories/catlegory-3.png" width="100%" alt="" />
+                </div>
+
+                <span>Categoria</span>
+            </div>
+
+            <div className="item">
+                <div className="box">
+                    <img src="./assets/images/categories/catlegory-4.png" width="100%" alt="" />
+                </div>
+
+                <span>Categoria</span>
+            </div>
+
+            <div className="item">
+                <img src="./assets/images/categories/catlegory-5.png" width="100%" alt="" />
+            </div>
+
+            <div className="item">
+                <img src="./assets/images/categories/catlegory-6.png" width="100%" alt="" />
+            </div>
+
+            <div className="item">
+                <img src="./assets/images/categories/catlegory-1.png" width="100%" alt="" />
+            </div>
+
+            <div className="item">
+                <img src="./assets/images/categories/catlegory-1.png" width="100%" alt="" />
+            </div>
+
+            <div className="item">
+                <img src="./assets/images/categories/catlegory-1.png" width="100%" alt="" />
+            </div>
+            
         </div>
 
+        </div>
+
+        
     );
 };
 

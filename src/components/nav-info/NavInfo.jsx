@@ -26,7 +26,7 @@ const NavInfo = () => {
             <div className="row">
                 
                 <div className="col-md-3">
-                    <img className="logo" width="100%" src="./assets/images/logo.png" alt="" />
+                    <h1>MediAssist</h1>
                 </div>
                 
                 <div className="col-md-3">

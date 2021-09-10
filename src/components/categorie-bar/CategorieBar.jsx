@@ -6,20 +6,18 @@ import "./CategorieBar.css"
 const CategorieBar = () => {
     return(
         <div className="categorie-bar my-4">
-            <h3 className="text-center mb-4">Productos Populares</h3>
+            <h3 className="text-center mb-4">Productos</h3>
 
             <ul>
-                <li>
-                    <ProductCardHorizontal />
+                <li className="my-4">
+                    <img src="./assets/images/brands/glunovo.png" width="100%" alt="" />
                 </li>
 
-                <li>
-                    <ProductCardHorizontal />
+                <li className="my-4">
+                    <img src="./assets/images/brands/glunovo.png" width="100%" alt="" />
                 </li>
 
-                <li>
-                    <ProductCardHorizontal />
-                </li>
+               
 
             </ul>
         </div>

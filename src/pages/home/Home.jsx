@@ -17,12 +17,33 @@ const Home = () => {
                     <CategoriesCarousel />
 
 
-                    <h1>All fine, all rigth!</h1>
                 </div>
 
             </div>
 
-            
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
         </div>
     )
 };
