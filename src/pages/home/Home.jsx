@@ -26,27 +26,27 @@ const Home = () => {
                         <div className="row">
 
                             <div className="col-md-3">
-                                <img src="./assets/images/products/01.jpg" width="100%" alt="" />
+                                <img src="./assets/images/products/01.jpeg" width="100%" alt="" />
                             </div>
 
                             <div className="col-md-3">
-                                <img src="./assets/images/products/01.jpg" width="100%" alt="" />
+                                <img src="./assets/images/products/02.jpg" width="100%" alt="" />
                             </div>
 
                             <div className="col-md-3">
-                                <img src="./assets/images/products/01.jpg" width="100%" alt="" />
+                                <img src="./assets/images/products/03.jpeg" width="100%" alt="" />
                             </div>
 
                             <div className="col-md-3">
-                                <img src="./assets/images/products/01.jpg" width="100%" alt="" />
+                                <img src="./assets/images/products/04.jpeg" width="100%" alt="" />
                             </div>
 
                             <div className="col-md-3">
-                                <img src="./assets/images/products/01.jpg" width="100%" alt="" />
+                                <img src="./assets/images/products/05.jpeg" width="100%" alt="" />
                             </div>
 
                             <div className="col-md-3">
-                                <img src="./assets/images/products/01.jpg" width="100%" alt="" />
+                                <img src="./assets/images/products/06.jpeg" width="100%" alt="" />
                             </div>
 
                             <div className="col-md-3">
