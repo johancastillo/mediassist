@@ -21,6 +21,10 @@ const Home = () => {
                     <br />
 
                     <section className="my-4">
+                        <img src="./assets/images/banners/01.jpg" width="100%" alt="" />
+                    </section>
+
+                    <section className="my-4">
 
                         <h4>Productos más vendidos</h4>
                         <div className="row">
