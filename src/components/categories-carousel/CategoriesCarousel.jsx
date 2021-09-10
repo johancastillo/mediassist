@@ -35,17 +35,27 @@ const CategoriesCarousel = () => {
             </div>
 
             <div class="categories-carousel" id="categories-carousel">
-            <div className="item">
-                <img src="./assets/images/categories/catlegory-1.png" width="100%" alt="" />
-            </div>
+            
 
             <div className="item">
-                <img src="./assets/images/categories/catlegory-2.png" width="100%" alt="" />
+                <div className="box">
+                <img src="./assets/images/categories/catlegory-1.png" width="100%" alt="" />
+                </div>
+
+                <span>Categoria</span>
             </div>
 
             <div className="item">
                 <div className="box">
-                <img src="./assets/images/categories/catlegory-3.png" width="100%" alt="" />
+                    <img src="./assets/images/categories/catlegory-2.png" width="100%" alt="" />
+                </div>
+
+                <span>Categoria</span>
+            </div>
+
+            <div className="item">
+                <div className="box">
+                    <img src="./assets/images/categories/catlegory-3.png" width="100%" alt="" />
                 </div>
 
                 <span>Categoria</span>
@@ -60,24 +70,38 @@ const CategoriesCarousel = () => {
             </div>
 
             <div className="item">
-                <img src="./assets/images/categories/catlegory-5.png" width="100%" alt="" />
+                <div className="box">
+                    <img src="./assets/images/categories/catlegory-5.png" width="100%" alt="" />
+                </div>
+
+                <span>Categoria</span>
             </div>
 
             <div className="item">
-                <img src="./assets/images/categories/catlegory-6.png" width="100%" alt="" />
+                <div className="box">
+                    <img src="./assets/images/categories/catlegory-6.png" width="100%" alt="" />
+                </div>
+
+                <span>Categoria</span>
             </div>
 
             <div className="item">
-                <img src="./assets/images/categories/catlegory-1.png" width="100%" alt="" />
+                <div className="box">
+                    <img src="./assets/images/categories/catlegory-4.png" width="100%" alt="" />
+                </div>
+
+                <span>Categoria</span>
             </div>
 
             <div className="item">
-                <img src="./assets/images/categories/catlegory-1.png" width="100%" alt="" />
+                <div className="box">
+                    <img src="./assets/images/categories/catlegory-4.png" width="100%" alt="" />
+                </div>
+
+                <span>Categoria</span>
             </div>
 
-            <div className="item">
-                <img src="./assets/images/categories/catlegory-1.png" width="100%" alt="" />
-            </div>
+            
             
         </div>
 

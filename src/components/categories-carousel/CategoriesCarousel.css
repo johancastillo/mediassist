@@ -13,10 +13,22 @@
 
 }
 
-.categories-carousel div{
+.categories-carousel .item{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10px 0 0;
+
+}
+
+.categories-carousel .item span{
+    margin-top: 10px;
+}
+
+.categories-carousel .item .box{
     width: 100px;
     height: 100px;
-    margin: 0 10px 0 0;
     padding: 0;
     background: #dadada;
     border-radius: 50%;

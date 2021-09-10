@@ -12,10 +12,52 @@ const Home = () => {
                     <CategorieBar />
                 </div>
 
-                <div className="col-md-8">  
+                <div className="col-md-8">
                     <Slider />
                     <CategoriesCarousel />
 
+
+                    <br />
+                    <br />
+
+                    <section className="my-4">
+
+                        <h4>Productos más vendidos</h4>
+                        <div className="row">
+
+                            <div className="col-md-3">
+                                <img src="./assets/images/products/01.jpg" width="100%" alt="" />
+                            </div>
+
+                            <div className="col-md-3">
+                                <img src="./assets/images/products/01.jpg" width="100%" alt="" />
+                            </div>
+
+                            <div className="col-md-3">
+                                <img src="./assets/images/products/01.jpg" width="100%" alt="" />
+                            </div>
+
+                            <div className="col-md-3">
+                                <img src="./assets/images/products/01.jpg" width="100%" alt="" />
+                            </div>
+
+                            <div className="col-md-3">
+                                <img src="./assets/images/products/01.jpg" width="100%" alt="" />
+                            </div>
+
+                            <div className="col-md-3">
+                                <img src="./assets/images/products/01.jpg" width="100%" alt="" />
+                            </div>
+
+                            <div className="col-md-3">
+                                <img src="./assets/images/products/01.jpg" width="100%" alt="" />
+                            </div>
+
+                            <div className="col-md-3">
+                                <img src="./assets/images/products/01.jpg" width="100%" alt="" />
+                            </div>
+                        </div>
+                    </section>
 
                 </div>
 
