@@ -34,7 +34,7 @@ const CategoriesCarousel = () => {
                 </button>
             </div>
 
-            <div class="categories-carousel" id="categories-carousel">
+            <div className="categories-carousel" id="categories-carousel">
             
 
             <div className="item">

@@ -1,4 +1,4 @@
-import ProductCardHorizontal from "../product-card-horizontal/ProductCardHorizontal"
+// import ProductCardHorizontal from "../product-card-horizontal/ProductCardHorizontal"
 
 import "./CategorieBar.css"
 
