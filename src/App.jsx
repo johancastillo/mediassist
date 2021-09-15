@@ -10,6 +10,8 @@ import SingleProduct from './pages/single-product/SingleProduct';
 import Store from './pages/store/Store';
 
 import "./App.css"
+import DiabetePage from './pages/diabete-page/DiabetePage';
+import ProductsPage from './pages/products-page/ProductsPage';
 
 const AppRouting = () => {
   return (
@@ -22,6 +24,8 @@ const AppRouting = () => {
         <Route path="/tienda" component={Store} />
         <Route path="/nosotros" component={AboutUs} />
         <Route path="/contactanos" component={ContactUs} />
+        <Route path="/diabetes" component={DiabetePage} />
+        <Route path="/productos-descartables" component={ProductsPage} />
         <Route path="/producto" component={SingleProduct} />
         <Route component={PageNotFound} />
       </Switch>

@@ -31,11 +31,11 @@ const Navigation = () => {
                         Áreas de negocio
 
                         <ul className="dropdown-menu">
-                            <Link to="/">
+                            <Link to="/diabetes">
                                 <li>Diabetes</li>
                             </Link>
 
-                            <Link to="/">
+                            <Link to="/productos-descartables">
                                 <li>Productos medicos descartables</li>
                             </Link>
                         </ul>

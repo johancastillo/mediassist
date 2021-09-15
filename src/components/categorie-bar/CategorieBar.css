@@ -2,3 +2,8 @@
     padding: 0 !important;
     list-style: none;
 }
+
+.img-banner{
+    border-radius: 8px;
+    cursor: pointer;
+}

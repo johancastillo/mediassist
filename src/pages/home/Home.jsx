@@ -1,3 +1,4 @@
+import { Link } from "wouter"
 import CategorieBar from "../../components/categorie-bar/CategorieBar"
 import CategoriesCarousel from "../../components/categories-carousel/CategoriesCarousel"
 import Slider from "../../components/slider/Slider"
@@ -26,40 +27,16 @@ const Home = () => {
 
                     <section className="my-4">
 
-                        <h4>Productos más vendidos</h4>
+                        <h4>Producto más vendidos</h4>
                         <div className="row">
 
-                            <div className="col-md-3">
-                                <img src="./assets/images/products/01.jpeg" width="100%" alt="" />
-                            </div>
+                            <Link to="/producto">
+                                <div className="col-md-12">
+                                    <img className="img-banner" src="./assets/images/products/01.jpeg" width="100%" alt="" />
+                                </div>
+                            </Link>
 
-                            <div className="col-md-3">
-                                <img src="./assets/images/products/02.jpg" width="100%" alt="" />
-                            </div>
-
-                            <div className="col-md-3">
-                                <img src="./assets/images/products/03.jpeg" width="100%" alt="" />
-                            </div>
-
-                            <div className="col-md-3">
-                                <img src="./assets/images/products/04.jpeg" width="100%" alt="" />
-                            </div>
-
-                            <div className="col-md-3">
-                                <img src="./assets/images/products/05.jpeg" width="100%" alt="" />
-                            </div>
-
-                            <div className="col-md-3">
-                                <img src="./assets/images/products/06.jpeg" width="100%" alt="" />
-                            </div>
-
-                            <div className="col-md-3">
-                                <img src="./assets/images/products/01.jpg" width="100%" alt="" />
-                            </div>
-
-                            <div className="col-md-3">
-                                <img src="./assets/images/products/01.jpg" width="100%" alt="" />
-                            </div>
+                            
                         </div>
                     </section>
 
